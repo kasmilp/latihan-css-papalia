@@ -1,0 +1,78 @@
+div.conten{
+	background-color: #7FFF00;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+h2.h1{
+	color: yellow;
+}
+h2.h2{
+	color: green;
+}
+/*penepaatan huruf left center right*/
+h2.h3{
+    text-align: center;
+}
+h2.h4{
+    text-align: left;
+}
+h2.h5{
+    text-align: right;
+}
+h2.h6{
+	text-align: justify;
+}
+/*menghapus garis bawa pada link "a href"*/
+
+a{
+	text-decoration: none;
+}
+/*garisan pada text*/
+h2.h8{
+    text-decoration: overline;
+}
+h2.h9{
+    text-decoration: line-through;
+}
+h2.k{
+    text-decoration: underline;
+}
+
+/*text transfrom*/
+h2.a{
+    text-transform: uppercase;
+}
+h2.b{
+    text-transform: lowercase;
+}
+h2.c{
+    text-transform: capitalize;
+}
+/*membuat jarak dengan border dll*/
+p.a{
+    text-indent: 50px;
+}
+/*jarak antara spasi*/
+h2.d {
+    letter-spacing: 3px;
+}
+h2.e{
+    letter-spacing: -2px;
+}
+/*jarak antara baris*/
+h2.f{
+    line-height: 0.7;
+}
+h2.g{
+    line-height: 1.8;
+}
+/*uruf beralih"bdo dir="rtl" di sebelah kiri*/
+h2.h{
+	direction: rtl;
+}
+
+/*shadow offect huruf bergaya dabel*/
+h1.ka{
+    text-shadow: 3px 2px red;
+}

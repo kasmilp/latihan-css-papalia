@@ -1,0 +1,83 @@
+div.conten{
+	margin: auto;
+	background-color: #7fff00;
+	width: 800px;
+}
+table, th, td {
+    text-align: center;
+    margin: auto;
+    height: 30px;
+    padding: 10px 10px;
+}
+table.ini, th.a, td.b{
+    border: 1px solid black;
+}
+
+/*tak dabel memakai collaspse*/
+table.kasmil{
+    border-collapse: collapse;
+}
+table.kasmil, td.e, th.d{
+    border: 1px solid black;
+}
+/*hanya di bungkus 1 boder*/
+table.mana{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+/*ukuran*/
+table.uang, td.i, th.h{
+    border: 1px solid black;
+}
+table.uang{
+    border-collapse: collapse;
+    width: 100%;
+}
+th.h{
+    height: 50px;
+}
+/*mengatur tataan huruf*/
+
+table.makang, td.k, th.j{
+    border: 1px solid black;
+}
+table.makang{
+    border-collapse: collapse;
+    width: 100%;
+}
+td.k, th.j{
+    text-align: left;
+    vertical-align: bottom;
+}
+/*boder bawa hover*/
+table.meja{
+    border-collapse: collapse;
+    width: 100%;
+}
+th.l, td.m{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+tr.ab:hover{
+    background-color:yellow;
+}
+
+/*warnaa*/
+table.air{
+    border-collapse: collapse;
+    width: 100%;
+}
+th.n, td.o{
+    text-align: left;
+    padding: 8px;
+}
+
+tr.ac:nth-child(even){
+    background-color: cyan
+}
+
+th.n{
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,23 @@
+div.conten{
+	width: 1000px;
+	margin: auto;
+	border:10px solid pink;
+}
+h1{
+	text-align: center;
+}
+
+p.margin{
+	border: 10px dotted black;
+    margin: 25px 100px 50px 75px;
+    background-color: lightblue;
+}
+p.margin2{
+	width:300px;
+    margin: auto;
+    border: 1px solid red;
+}
+p.marginleft{
+	border: 5px dotted yellow;
+	margin-left: 400px;
+}

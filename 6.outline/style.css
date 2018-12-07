@@ -1,0 +1,71 @@
+div.conten{
+	background-color: #7FFF00;
+	width: 900px;
+	margin:auto;
+}
+p {outline-color:red;}
+
+div.dotted {
+	outline-style: dotted;
+}
+div.dashed {
+	outline-style: dashed;
+}
+div.solid {
+	outline-style: solid;
+}
+div.double {
+	outline-style: double;
+}
+div.groove {
+	outline-style: groove;
+}
+div.ridge {
+	outline-style: ridge;
+}
+div.inset {
+	outline-style: inset;
+}
+div.outset {
+	outline-style: outset;
+}
+
+/*outline color*/
+div.pink{
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: pink;
+}
+
+div.blue{
+    border: 1px solid black;
+    outline-style: double;
+    outline-color: blue;
+}
+
+div.green{
+    border: 1px solid black;
+    outline-style: outset;
+    outline-color: green;
+}
+/*poperty*/
+div.dashed{
+	outline: dashed;
+}
+div.dottedred{
+	outline: dotted red;
+}
+div.yellow{
+	outline: 5px solid yellow;
+}
+div.pink{
+	outline: thick ridge pink;
+}
+
+/*outline offset*/
+div.offset{
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}

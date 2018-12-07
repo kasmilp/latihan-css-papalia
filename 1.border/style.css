@@ -1,0 +1,143 @@
+
+div.conten{
+	width: 800px;
+	background-color: pink;
+	margin: 20px auto;
+}
+
+
+/*border1*/
+
+div.dotted{
+	border-style: dotted;
+	padding: 5px;
+}
+div.dashed{
+	border-style: dashed;
+	padding: 5px;
+}
+div.solid{
+	border-style: solid;
+	padding: 5px;
+}
+div.double{
+	border-style: double;
+	padding: 5px;
+}
+div.groover{
+	border-style: groove;
+	padding: 5px;
+}
+div.ridge{
+	border-style: ridge;
+	padding: 5px;
+}
+div.inset{
+	border-style: inset;
+	padding: 5px;
+}
+div.outset{
+	border-style: outset;
+	padding: 5px;
+}
+div.none{
+	border-style: none;
+	padding: 5px;
+}
+div.hidden{
+	border-style: hidden;
+	padding: 5px;
+}
+div.mix{
+	border-style: dotted  dashed solid double;
+	padding: 15px;
+}
+
+
+/*border2*/
+
+
+div.one1{
+	border-style: solid;
+	border-width: 10px;
+	padding: 5px;
+}
+div.two1{
+	border-style: solid;
+	border-width: medium;
+	padding: 5px;
+}
+div.three1{
+	border-style: dotted;
+	border-width: thick;
+	padding: 5px;
+}
+div.five1{
+	border-style: double;
+	border-width: 10px;
+	padding: 5px;
+}
+div.six1{
+	border-style: double;
+	border-width: thick;
+	padding: 5px;
+}
+div.seven1{
+	border-style: solid;
+	border-width: 3px 10px 4px 15px;
+	padding: 15px;
+	bo
+}
+
+
+/*contoh 3*/
+
+h2.left{
+	border: 10px solid green;
+	border-left:dotted;
+	padding: 10px;
+}
+
+h2.bottom{
+	border: 10px solid green;
+	border-bottom: dotted;
+	padding: 10px;
+}
+h2.top{
+	border: 10px solid green;
+	border-top: dotted;
+	padding: 10px;
+}
+h2.right{
+	border: 10px solid green;
+	border-right: dotted;
+	padding: 10px;
+}
+h2.color-lift{
+	border:10px solid green;
+	border-left-color:blue;
+	padding: 10px;
+}
+/*warna*/
+h2.color-top{
+	border:10px solid green;
+	border-top-color:blue;
+	padding: 10px;
+}
+h2.color-right{
+	border:10px solid green;
+	border-right-color:blue;
+	padding: 10px;
+}
+h2.color-bottom{
+	border:10px solid green;
+	border-bottom-color:blue;
+	padding: 10px;
+}
+/*radius*/
+
+h2.radius{
+	border:10px solid green;
+	border-radius: 10px;
+	padding: 10px;
+}

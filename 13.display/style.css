@@ -1,0 +1,14 @@
+div.conten{
+	margin: auto;
+	background-color: #7fff00;
+	width: 800px;
+}
+li{
+    display: inline;
+}
+span{
+    display: block;
+}
+a.a{
+    display: block;
+}
