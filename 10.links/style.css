@@ -1,0 +1,52 @@
+div.conten{
+	background-color: #7FFF00;
+	width: 800px;
+	margin: auto;
+	padding-bottom: 10px;
+}
+a{
+    color: hotpink;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: pink;
+}
+/* selected link */
+a:active {
+    color: blue;
+}
+/*11111*/
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+/*222*/
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: blue;
+}
