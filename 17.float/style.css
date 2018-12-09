@@ -1,0 +1,52 @@
+body{
+	background-color: #eee;
+}
+div.conten{
+	margin: auto;
+	width: 800px;
+	background-color: aqua;
+}
+img.a{
+  	float: right;
+  	padding-right: 9px;
+  	width: 100px;
+  	height: 100px;
+  	margin-left: 15px;
+}
+img.b{
+	float: left;
+	width: 100px;
+  	height: 100px;
+ 	margin-left: 15px;
+}
+img.c{
+	float: none;
+	width: 100px;
+  	height: 100px;
+ 	margin-left: 15px;
+}
+/*clear*/
+div.d{
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+}
+
+div.e{
+  border: 1px solid red;
+}
+
+div.f{
+  float: left;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  border: 3px solid #73AD21;
+}
+
+div.g{
+  border: 1px solid red;
+  clear: left;
+}

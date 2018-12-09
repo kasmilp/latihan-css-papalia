@@ -1,0 +1,50 @@
+body{
+  background-color: #eee;
+}
+div.conten{
+  margin: auto;
+  width: 800px;
+  background-color: aqua;
+  padding-left: 2px;
+}
+span.a {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;  
+  background-color: #eee; 
+}
+span.b {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: #eee; 
+}
+span.c {
+  display: block;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: #eee; 
+}
+
+div.kk{
+  padding-right: 2px;
+}
+ul.papalia{
+  background-color: yellow; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul.papalia li{
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
